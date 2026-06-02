@@ -2,7 +2,9 @@ name: artemis-ii
 channels:
 - conda-forge
 dependencies:
-- python=3.12
-- numpy=2.4.4
-- matplotlib=3.10.8
-- astropy=3.10.8
+- python==3.12
+- pip==23.2
+- pip:
+  - numpy==2.4.4
+  - matplotlib==3.10.8
+  - astropy==7.2.0
